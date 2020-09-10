@@ -32,4 +32,19 @@ export function handleInitialData() {
 // const thunk = createThunkMiddleware();
 // thunk.withExtraArgument = createThunkMiddleware;
 
+// like a tweet no only in the store but also in our database
+
+// function handleToggleTweet (info) {
+//   return (dispatch) => {
+//     saveLikeToggle(info)
+//     .then(() => {
+//       dispatch(toggleTweet(info));
+//       })
+//     .catch((e) => {
+//       console.warn('Error in handleToggleTweet: ', e);
+//       alert('There was an error liking the tweet. Try again.');
+//   });
+// };
+// }
+
 // export default thunk;
